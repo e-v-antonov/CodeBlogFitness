@@ -52,7 +52,7 @@ static double ParseDouble(string name)
         }
         else
         {
-            Console.WriteLine($"Неверный формат {name}.");
+            Console.WriteLine($"Неверный формат {name}а.");
         }
     }
 }
