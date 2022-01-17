@@ -9,6 +9,7 @@ namespace CodeBlogFitness.BL.Model
     /// <summary>
     /// Пол.
     /// </summary>
+    [Serializable]
     public class Gender
     {
         /// <summary>
@@ -23,7 +24,7 @@ namespace CodeBlogFitness.BL.Model
         /// <exception cref="ArgumentNullException"></exception>
         public Gender(string name)
         {
-            if(string.IsNullOrWhiteSpace(name))
+            if (string.IsNullOrWhiteSpace(name))
             {
                 throw new ArgumentNullException("Имя пола не может быть пустым или null.", nameof(name));
             }
