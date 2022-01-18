@@ -60,6 +60,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Controller\EatingControllerTest.cs" />
+    <Compile Include="Controller\ActivityControllerTest.cs" />
     <Compile Include="Controller\UserControllerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
